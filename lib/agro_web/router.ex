@@ -18,9 +18,10 @@ defmodule AgroWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :index
-    get "/company", CompanyController, :company
-    get "/grow", CompanyController, :grow
-    get "/cast_oil", CompanyController, :cast_oil
+    get "/about", PageController, :about
+    get "/company",PageController , :company
+    get "/grow", PageController, :grow
+    get "/cast_oil",PageController, :cast_oil
   end
 
   # Other scopes may use custom stacks.

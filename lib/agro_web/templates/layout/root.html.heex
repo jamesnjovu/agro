@@ -125,9 +125,9 @@
                             <li class="dropdown">
                                 <a href="project.html" class="dropdown-toggle" data-toggle="dropdown" >Projects</a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="project.html">Company farm</a></li>
-                                    <li><a href="project-details.html">Out grower scheme</a></li>
-                                    <li><a href="project-details.html">Castor Oil processing</a></li>
+                                    <li><a href={Routes.page_path(@conn, :company)}>Company farm</a></li>
+                                    <li><a href={Routes.page_path(@conn, :grow)}>Out grower scheme</a></li>
+                                    <li><a href={Routes.page_path(@conn, :cast_oil)}>Castor Oil processing</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">
@@ -140,7 +140,7 @@
                             </li>
 
                             <li class="dropdown">
-                                <a href="#" class="" data-toggle="dropdown" >About Us</a>
+                                <a href={Routes.page_path(@conn, :about)}  class="" data-toggle="dropdown" >About Us</a>
                             </li>
                         </ul>
                     </div>

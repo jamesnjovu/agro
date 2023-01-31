@@ -3539,7 +3539,7 @@ nav.navbar.validnavs.inc-shape::after {
 	content: "";
 	height: 80px;
 	width: 80px;
-	background: url(../img/shape/6-6da7ab60676efd436caaca11466079b8.png?vsn=d);
+	background: url(../img/shape/6.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: right top;
@@ -3568,7 +3568,7 @@ nav.navbar.validnavs.inc-shape::after {
 	content: "";
 	height: 250px;
 	width: 250px;
-	background: url(../img/shape/8-3a639dd252264e79975f6fa7d290e4a1.png?vsn=d);
+	background: url(../img/shape/8-15c7d5edc7135aeae2dad9f58fc7347d.png?vsn=d);
 	z-index: -1;
 	border-radius: 50%;
 	margin-left: 0;

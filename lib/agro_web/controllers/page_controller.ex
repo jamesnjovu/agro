@@ -22,5 +22,20 @@ defmodule AgroWeb.PageController do
   end
 
 
+  def fertilizer(conn, _params) do
+    render(conn, "fertilizer.html")
+  end
+
+  def outgrow(conn, _params) do
+    render(conn, "outgrow.html")
+  end
+
+
+  def planting(conn, _params) do
+    render(conn, "planting.html")
+  end
+
+
+
 
 end

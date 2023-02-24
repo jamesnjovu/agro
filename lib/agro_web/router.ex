@@ -22,6 +22,9 @@ defmodule AgroWeb.Router do
     get "/company",PageController , :company
     get "/grow", PageController, :grow
     get "/cast_oil",PageController, :cast_oil
+    get "/planting",PageController, :planting
+    get "/outgrow",PageController, :outgrow
+    get "/fertilizer",PageController, :fertilizer
   end
 
   # Other scopes may use custom stacks.

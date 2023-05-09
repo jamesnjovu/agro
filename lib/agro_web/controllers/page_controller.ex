@@ -35,6 +35,10 @@ defmodule AgroWeb.PageController do
     render(conn, "planting.html")
   end
 
+  def training(conn, _params) do
+    render(conn, "training.html")
+  end
+
 
 
 
